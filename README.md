@@ -29,10 +29,6 @@ git clone <URL_РЕПОЗИТОРИЯ>
 Для развертывания приложения с использованием Docker:
 Создайте .env и заполните его как написано в .env.example
 
-Соберите образ:
-```
-docker build -t imei-checker .
-```
 Запустите контейнер:
 ```
 sudo docker-compose up -d
